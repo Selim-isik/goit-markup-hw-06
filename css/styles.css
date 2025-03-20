@@ -47,6 +47,7 @@ address {
 .container {
   max-width: 320px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .burger {
@@ -400,6 +401,7 @@ address {
   .menu {
     display: flex;
   }
+
   .contacts-block {
     display: block;
   }
@@ -409,6 +411,9 @@ address {
   }
   .container {
     max-width: 768px;
+  }
+  .our-item {
+    flex: 1 1 calc(50% - 12px);
   }
 }
 
@@ -428,7 +433,6 @@ address {
     flex-direction: row;
     flex-wrap: nowrap;
   }
-
   .goal-menu-item {
     width: calc((100% - 72px) / 4);
   }
@@ -453,6 +457,11 @@ address {
   padding: 120px 0;
 }
 
+.team-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .team-tittle {
   font-size: 36px;
   line-height: 1.11;
@@ -474,6 +483,11 @@ address {
 .team-ul {
   display: flex;
   gap: 24px;
+  margin-top: 72px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: none;
 }
 
 .team-info {
@@ -502,6 +516,8 @@ address {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .team-member-icon {
@@ -557,6 +573,8 @@ address {
 .our-item {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  max-width: 360px;
+  box-sizing: border-box;
 }
 
 .our-item:hover .our-text {
