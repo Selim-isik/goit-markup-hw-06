@@ -392,7 +392,7 @@ address {
     max-width: 320px;
   }
   .our-item {
-    flex: 1 1 calc(400% - 12px);
+    flex: 1 1 calc(500% - 12px);
   }
   .footer-tittle > .container {
     flex-direction: column;
@@ -432,7 +432,7 @@ address {
     max-width: 768px;
   }
   .our-item {
-    flex: 1 1 calc(50% - 12px);
+    flex: 1 1 calc(400% - 12px);
   }
   .footer-tittle > .container {
     flex-direction: row;
