@@ -394,6 +394,16 @@ address {
   .our-item {
     flex: 1 1 calc(400% - 12px);
   }
+  .footer-tittle > .container {
+    flex-direction: column;
+  }
+  .footer-form {
+    flex-direction: column;
+  }
+  .footer-twice {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -423,6 +433,15 @@ address {
   }
   .our-item {
     flex: 1 1 calc(50% - 12px);
+  }
+  .footer-tittle > .container {
+    flex-direction: row;
+  }
+  .footer-form {
+    flex-direction: row;
+  }
+  .footer-twice {
+    text-align: unset;
   }
 }
 
@@ -457,6 +476,17 @@ address {
   }
   .contacts-list {
     flex-direction: row;
+  }
+
+  .footer-tittle > .container {
+    flex-direction: row;
+  }
+  .footer-form {
+    flex-direction: row;
+  }
+
+  .footer-twice {
+    text-align: unset;
   }
 }
 /* Our Team */
