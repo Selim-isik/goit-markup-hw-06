@@ -387,6 +387,15 @@ address {
   color: #434455;
 }
 
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+  .our-item {
+    flex: 1 1 calc(400% - 12px);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .goal-menu-item {
     width: calc((100% - 72px) / 2);
@@ -450,7 +459,6 @@ address {
     flex-direction: row;
   }
 }
-
 /* Our Team */
 .team {
   background-color: #f4f4fd;
